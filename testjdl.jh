@@ -1,0 +1,61 @@
+
+application {
+  config {
+    baseName Myrh,
+    applicationType gateway,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework react
+  }
+  entities *
+}
+
+application {
+  config {
+    baseName Myconge,
+    applicationType microservice,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+  }
+  entities *
+}
+
+
+entity Conge {
+	Id Integer required 
+	IdConge Integer required 
+    DateDebut LocalDate required 
+    DateRetourEffective LocalDate required 
+}
+
+entity CongeData {
+	Id Integer required 
+	IdConge Integer required 
+    NbrJour LocalDate required 
+    DateRetour LocalDate required 
+}
+
+entity Tracker {
+	Id Integer required 
+    IdConge Integer required 
+    Step Integer required 
+}
+
+entity Recuperation {
+	 Id Integer required 
+     IdConge Integer required 
+     NbrJour Integer required 
+}
+
+relationship OneToMany {
+   Conge to CongeData
+}
+relationship OneToOne {
+    Conge to Tracker
+    Conge to Recuperation
+    
+}
+
+    
