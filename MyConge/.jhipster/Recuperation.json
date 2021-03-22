@@ -1,0 +1,35 @@
+{
+  "name": "Recuperation",
+  "fields": [
+    {
+      "fieldName": "idConge",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nbrJour",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "conge",
+      "otherEntityRelationshipName": "recuperation",
+      "relationshipName": "conge",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20210322103820",
+  "entityTableName": "recuperation",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["Myrh", "MyConge"]
+}

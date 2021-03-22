@@ -1,0 +1,24 @@
+{
+  "myrhApp": {
+    "recuperation": {
+      "home": {
+        "title": "Recuperations",
+        "createLabel": "Créer un nouveau Recuperation",
+        "createOrEditLabel": "Créer ou éditer un Recuperation",
+        "notFound": "Aucun Recuperation trouvé"
+      },
+      "created": "Un nouveau Recuperation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Recuperation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Recuperation avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Recuperation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Recuperation"
+      },
+      "idConge": "Id Conge",
+      "nbrJour": "Nbr Jour",
+      "conge": "Conge"
+    }
+  }
+}

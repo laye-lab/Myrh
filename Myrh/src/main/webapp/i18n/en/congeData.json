@@ -1,0 +1,25 @@
+{
+  "myrhApp": {
+    "congeData": {
+      "home": {
+        "title": "Conge Data",
+        "createLabel": "Create a new Conge Data",
+        "createOrEditLabel": "Create or edit a Conge Data",
+        "notFound": "No Conge Data found"
+      },
+      "created": "A new Conge Data is created with identifier {{ param }}",
+      "updated": "A Conge Data is updated with identifier {{ param }}",
+      "deleted": "A Conge Data is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Conge Data {{ id }}?"
+      },
+      "detail": {
+        "title": "Conge Data"
+      },
+      "idConge": "Id Conge",
+      "nbrJour": "Nbr Jour",
+      "dateRetour": "Date Retour",
+      "conge": "Conge"
+    }
+  }
+}
