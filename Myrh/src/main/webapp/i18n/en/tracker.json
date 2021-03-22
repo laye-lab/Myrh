@@ -1,0 +1,24 @@
+{
+  "myrhApp": {
+    "tracker": {
+      "home": {
+        "title": "Trackers",
+        "createLabel": "Create a new Tracker",
+        "createOrEditLabel": "Create or edit a Tracker",
+        "notFound": "No Trackers found"
+      },
+      "created": "A new Tracker is created with identifier {{ param }}",
+      "updated": "A Tracker is updated with identifier {{ param }}",
+      "deleted": "A Tracker is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tracker {{ id }}?"
+      },
+      "detail": {
+        "title": "Tracker"
+      },
+      "idConge": "Id Conge",
+      "step": "Step",
+      "conge": "Conge"
+    }
+  }
+}

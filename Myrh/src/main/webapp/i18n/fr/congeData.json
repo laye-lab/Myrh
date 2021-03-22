@@ -1,0 +1,25 @@
+{
+  "myrhApp": {
+    "congeData": {
+      "home": {
+        "title": "CongeData",
+        "createLabel": "Créer un nouveau Conge Data",
+        "createOrEditLabel": "Créer ou éditer un Conge Data",
+        "notFound": "Aucun Conge Data trouvé"
+      },
+      "created": "Un nouveau Conge Data a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Conge Data avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Conge Data avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Conge Data {{ id }} ?"
+      },
+      "detail": {
+        "title": "Conge Data"
+      },
+      "idConge": "Id Conge",
+      "nbrJour": "Nbr Jour",
+      "dateRetour": "Date Retour",
+      "conge": "Conge"
+    }
+  }
+}
